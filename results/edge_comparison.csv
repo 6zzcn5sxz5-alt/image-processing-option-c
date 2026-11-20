@@ -1,0 +1,4 @@
+method,CleanEdges,NoisyEdges,NoisyOnlyEdges,CleanOnlyEdges
+Sobel+Gaussian 1,2099,2026,298,371
+Canny sigma 1,7816,18112,13096,2800
+Canny sigma 3,2780,3184,1010,606

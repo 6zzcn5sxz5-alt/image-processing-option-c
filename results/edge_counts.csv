@@ -1,0 +1,3 @@
+Image,Sobel_after_Gaussian1,Canny_sigma1,Canny_sigma3
+Clean,2099,7816,2780
+Noisy,2026,18112,3184
