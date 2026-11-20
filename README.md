@@ -32,7 +32,3 @@ The noisy image was generated once with `rng(42); In = imnoise(I,'gaussian',0,0.
 The [six edge maps](results/edge_maps.png) show how noise affected each configuration. In the [sky crop](results/region_inspection.png) at rows 20–65 and columns 165–225, Canny σ = 1 marks 0 pixels on the clean image and 916 on the noisy one. Noisy Canny σ = 3 and smoothed Sobel each mark 0 pixels in the same crop. Stronger smoothing retains the main outline but reduces fine background detail, so the appropriate scale depends on which boundaries matter.
 
 The [counts](results/edge_counts.csv), [comparison](results/edge_comparison.csv) and [bar chart](results/edge_pixel_counts.png) quantify the change. A count measures the number of marked pixels. Evaluating accuracy requires annotated boundaries. A slight shift in a detected boundary can create pixels that appear in only one map.
-
-## Use of AI assistance
-
-Codex helped prepare the MATLAB code and written discussion, ran the experiment in MATLAB, and checked the resulting tables and figures. The reported values come from the executed Live Script.
